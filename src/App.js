@@ -4,6 +4,7 @@ import Header from "./components/Navigation/Header";
 import FeaturedTrip from "./components/Main/FeaturedTrip";
 import DiscoverExperience from "./components/Main/DiscoverExperience";
 import GiftCard from "./components/Main/GiftCard";
+import Hosting from "./components/Main/Hosting";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FeaturedTrip></FeaturedTrip>
       <DiscoverExperience></DiscoverExperience>
       <GiftCard></GiftCard>
+      <Hosting></Hosting>
     </div>
   );
 }
