@@ -5,11 +5,13 @@ import FeaturedTrip from "./components/Main/FeaturedTrip";
 import DiscoverExperience from "./components/Main/DiscoverExperience";
 import GiftCard from "./components/Main/GiftCard";
 import Hosting from "./components/Main/Hosting";
+import Banner from "./components/Main/Banner";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Banner />
       <FeaturedTrip></FeaturedTrip>
       <DiscoverExperience></DiscoverExperience>
       <GiftCard></GiftCard>
