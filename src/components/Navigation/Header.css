@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+}
+
+.header-icon{
+    object-fit: contain;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.header-center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 10px;
+    height: 30px;
+}
+.header-center > input{
+    border: none;
+    width: 250px;
+    padding: 10px;
+    outline-width: 0; /* It will remove the border for input box */
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18vw;
+    margin-right: 80px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 5px;
+}
+.burger-icon{
+    margin-right: 10px;
+}
