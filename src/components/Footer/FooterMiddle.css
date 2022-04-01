@@ -11,12 +11,13 @@
     justify-content: space-between;
 }
 .footer-middle h4{
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 /* Footer Middle Support Section */
 .footer-support ul li{
     list-style: none;
     margin-top: 10px;
+    margin-left: -40px;
     
 }
 .footer-support ul li a{
@@ -31,6 +32,7 @@
 .community-section ul li{
     list-style: none;
     margin-top: 10px;
+    margin-left: -40px;
     
 }
 .community-section ul li a{
@@ -45,6 +47,7 @@
 .hosting ul li{
     list-style: none;
     margin-top: 10px;
+    margin-left: -40px;
     
 }
 .hosting ul li a{
@@ -59,6 +62,7 @@
 .about-section ul li{
     list-style: none;
     margin-top: 10px;
+    margin-left: -40px;
     
 }
 .about-section ul li a{
