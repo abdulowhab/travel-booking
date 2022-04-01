@@ -6,6 +6,8 @@ import DiscoverExperience from "./components/Main/DiscoverExperience";
 import GiftCard from "./components/Main/GiftCard";
 import Hosting from "./components/Main/Hosting";
 import Banner from "./components/Main/Banner";
+import FooterDown from "./components/Footer/FooterDown";
+import FooterMiddle from "./components/Footer/FooterMiddle";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <DiscoverExperience></DiscoverExperience>
       <GiftCard></GiftCard>
       <Hosting></Hosting>
+      <FooterMiddle />
+      <FooterDown />
     </div>
   );
 }
