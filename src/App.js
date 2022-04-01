@@ -8,6 +8,7 @@ import Hosting from "./components/Main/Hosting";
 import Banner from "./components/Main/Banner";
 import FooterDown from "./components/Footer/FooterDown";
 import FooterMiddle from "./components/Footer/FooterMiddle";
+import FooterTop from "./components/Footer/FooterTop";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <DiscoverExperience></DiscoverExperience>
       <GiftCard></GiftCard>
       <Hosting></Hosting>
+      <FooterTop />
       <FooterMiddle />
       <FooterDown />
     </div>
