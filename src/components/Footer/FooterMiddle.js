@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./FooterMiddle.css";
+import Help from "./FooterPages/Help";
 
 const FooterMiddle = () => {
   return (
@@ -8,7 +10,7 @@ const FooterMiddle = () => {
         <h4>Support</h4>
         <ul>
           <li>
-            <a href="#">Help Center</a>
+            <Link to="/help"> Help Center </Link>
           </li>
           <li>
             <a href="#">Safety Information</a>

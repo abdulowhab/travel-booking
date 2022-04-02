@@ -1,7 +1,14 @@
+.footer-top-tab{
+    width: 100%;
+    
+}
 .tab-section{
     margin: 40px 80px;
+    width: 1200px !important;
 }
-
+.footer-top-heading{
+    width: 100%;
+}
 
 .tab{
     text-transform: none !important;
