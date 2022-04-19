@@ -1,21 +1,30 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Navigation/Header";
-import FeaturedTrip from "./components/Main/FeaturedTrip";
-import DiscoverExperience from "./components/Main/DiscoverExperience";
-import GiftCard from "./components/Main/GiftCard";
-import Hosting from "./components/Main/Hosting";
-import Banner from "./components/Main/Banner";
+// import Header from "./components/Navigation/Header";
+
+// import FooterDown from "./components/Footer/FooterDown";
+// import FooterMiddle from "./components/Footer/FooterMiddle";
+// import FooterTop from "./components/Footer/FooterTop";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// import Help from "./components/Footer/FooterPages/Help";
+import Home from "./components/Home/Home";
+// import Home from "./components/Main/Home";
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Banner />
-      <FeaturedTrip></FeaturedTrip>
-      <DiscoverExperience></DiscoverExperience>
-      <GiftCard></GiftCard>
-      <Hosting></Hosting>
+      <BrowserRouter>
+        {/* <Header></Header> */}
+        <Routes>
+          {/* <Route path="/" element={<Home />} />
+          <Route path="/help" element={<Help />} /> */}
+
+          <Route  path = "/" element = {<Home/>}/>
+        </Routes>
+        {/* <FooterTop />
+        <FooterMiddle />
+        <FooterDown /> */}
+      </BrowserRouter>
     </div>
   );
 }
